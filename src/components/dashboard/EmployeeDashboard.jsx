@@ -1,5 +1,6 @@
 import React from 'react'
 import TaskListCards from './TaskListCards'
+import TaskList from '../TaskList/TaskList'
 
 const EmployeeDashboard = () => {
       return (
@@ -11,8 +12,9 @@ const EmployeeDashboard = () => {
                                     <h1 className='text-xl' >Hello , <br /> <span className='text-3xl font-semibold ' >Sankalp ☺️</span></h1>
                                     <button className='bg-red-600 text-white rounded-2xl p-3 ' >Log out</button>
                               </div>
-                              
+
                               <TaskListCards />
+                              <TaskList />
                         </div>
                   </div>
 

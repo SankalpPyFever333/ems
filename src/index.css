@@ -1,5 +1,5 @@
 @tailwid base;
-@tailwind components;
+/* @tailwind components; */
 @tailwind utilities;
 @import "tailwindcss"; 
 
@@ -10,6 +10,10 @@
 }
 html , body{
   background:#000000;
+}
+
+#taskList::-webkit-scrollbar{
+  display: none;
 }
 
 

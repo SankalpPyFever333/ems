@@ -10,7 +10,6 @@ const EmployeeDashboard = () => {
                   <div className="mainDashboard ">
                         <div className="p-15 flex flex-col h-screen bg-[#1C1C1C] ">
                               <Headers />
-
                               <TaskListCards />
                               <TaskList />
                         </div>

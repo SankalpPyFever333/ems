@@ -2,8 +2,15 @@
 const employees = [
       {
             "id": 1,
+            "firstName": "Employee1",
             "email": "emp1@example.com",
             "password": "abc",
+            "taskCount": {
+                  "active": 1,
+                  "completed": 1,
+                  "failed": 0,
+                  "newTask": 1
+            },
             "tasks": [
                   {
                         "task_title": "Prepare Report",
@@ -31,8 +38,15 @@ const employees = [
       },
       {
             "id": 2,
+            "firstName": "Employee2",
             "email": "emp2@example.com",
             "password": "xyz",
+            "taskCount": {
+                  "active": 1,
+                  "completed": 1,
+                  "failed": 1,
+                  "newTask": 1
+            },
             "tasks": [
                   {
                         "task_title": "Bug Fixing",
@@ -71,8 +85,15 @@ const employees = [
       },
       {
             "id": 3,
+            "firstName": "Employee3",
             "email": "emp3@example.com",
             "password": "123",
+            "taskCount": {
+                  "active": 2,
+                  "completed": 0,
+                  "failed": 0,
+                  "newTask": 2
+            },
             "tasks": [
                   {
                         "task_title": "Client Meeting",
@@ -100,8 +121,15 @@ const employees = [
       },
       {
             "id": 4,
+            "firstName": "Employee4",
             "email": "emp4@example.com",
             "password": "qwe",
+            "taskCount": {
+                  "active": 1,
+                  "completed": 1,
+                  "failed": 1,
+                  "newTask": 1
+            },
             "tasks": [
                   {
                         "task_title": "Database Migration",
@@ -140,8 +168,15 @@ const employees = [
       },
       {
             "id": 5,
+            "firstName": "Employee5",
             "email": "emp5@example.com",
             "password": "asd",
+            "taskCount": {
+                  "active": 1,
+                  "completed": 1,
+                  "failed": 0,
+                  "newTask": 1
+            },
             "tasks": [
                   {
                         "task_title": "Social Media Update",
@@ -168,10 +203,12 @@ const employees = [
             ]
       }
 ]
+
 const admin = [{
       "id": 101,
       "email": "admin@example.com",
-      "password": "adm"
+      "password": "adm",
+      "firstName": "Admin1",
 }]
 
 export const setLocalStorage = () => {

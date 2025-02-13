@@ -21,6 +21,28 @@ const employees = [
                         "active": true,
                         "new_task": true,
                         "completed": false,
+                        "failed": true
+                  },
+                  {
+                        "task_title": "Prepare Report for finance",
+                        "description": "Create the yearly sales report.",
+                        "date": "2025-02-09",
+                        "category": "Reporting",
+                        "status": "In Progress",
+                        "active": true,
+                        "new_task": false,
+                        "completed": false,
+                        "failed": false
+                  },
+                  {
+                        "task_title": "Prepare Report",
+                        "description": "Create the monthly material report.",
+                        "date": "2025-02-09",
+                        "category": "Reporting",
+                        "status": "In Progress",
+                        "active": false,
+                        "new_task": true,
+                        "completed": false,
                         "failed": false
                   },
                   {

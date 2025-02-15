@@ -4,12 +4,13 @@ import CompleteTask from './CompleteTask'
 import FailedTask from './FailedTask'
 import NewTask from './NewTask'
 
-const TaskList = ({ userData }) => {
-      console.log(userData)
+const TaskList = () => {
+      const userData = JSON.parse(localStorage.getItem("loggedUserData"))
+      console.log("userData in list", userData)
       return (
             <div id='taskList' className='h-[55%] overflow-x-auto w-full  mt-10 flex flex-nowrap p-5 items-center gap-5 justify-start ' >
                   {
-                        userData.tasks.map((elem) => {
+                        userData.emp.tasks.map((elem) => {
                               if (elem.active) {
                                     return <AcceptTask />
                               }

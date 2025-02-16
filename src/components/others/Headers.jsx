@@ -6,6 +6,7 @@ const Headers = () => {
       const handleLogOut = () => {
             localStorage.removeItem("loggedUser");
             localStorage.removeItem("loggedUserData");
+            window.location.reload();
       }
       return (
             <div>

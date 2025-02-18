@@ -12,7 +12,7 @@ const App = () => {
   const [loggedInUser, setLoggedInUser] = useState(null);
 
   useEffect(() => {
-    // setLocalStorage();
+    setLocalStorage();
     const storedUser = JSON.parse(localStorage.getItem('loggedUserData'));
     console.log('storedUser' , storedUser)
     if (storedUser) {
@@ -20,7 +20,7 @@ const App = () => {
       const userRole = JSON.parse(localStorage.getItem('loggedUser'));
       setUser(userRole.role)
     }
-  }, [])
+  }, [user])
 
   const handleLogin = (email, password) => {
     const adminData = authData.adminData.find((e) => email == e.email && password == e.password);

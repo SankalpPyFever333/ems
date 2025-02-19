@@ -30,9 +30,9 @@ const CreateTaskPage = () => {
                   if (elem.firstName == taskAssignTo) {
                         elem.tasks.push(task);
                   }
-                  
+
             })
-            localStorage.setItem("employees" , JSON.stringify(parseInt))
+            localStorage.setItem("employees", JSON.stringify(empDataFromLS))
 
             console.log(taskTitle, taskDate, taskDescription, taskCategory, taskAssignTo);
             setTaskAssignTo("")

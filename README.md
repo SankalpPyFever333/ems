@@ -1,8 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🏢 Employee Management System 🚀 | Task Assignment & Tracking ✅
 
-Currently, two official plugins are available:
+🚀 Employee Management System | 👨‍💼 Admin assigns tasks 📌 Employees track progress ✅ Status & Category-based tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+
+
+## Screenshot
+
+![authScreen](https://github.com/SankalpPyFever333/ems/blob/main/src/assets/Authscreen.png)
+
+![EmpScreen](https://github.com/SankalpPyFever333/ems/blob/main/src/assets/Emp1Screen.png)
+
+![adminScreen](https://github.com/SankalpPyFever333/ems/blob/main/src/assets/adminScreen.png)
+
+
+
+
+
+## 🛠️Tech Stack | Built With 🚀
+
+- ⚛️ React.js – Frontend framework
+- 🎨 Tailwind CSS – Styling
+- ⚡ Vite – Build tool
+- 🌐 Web API
+### Author
+
+- [@Sankalp Pandey](https://github.com/SankalpPyFever333)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
